@@ -1,22 +1,22 @@
-4D5B01 : 3D 00 10 00 00                 cmp     eax, 1000h
-4D5E72 : C7 86 34 5E 00 00 1C 0B 59 00  mov     dword ptr [esi+5E34h], offset off_590B1C
-4D5E7C : 89 9E 38 5E 00 00              mov     [esi+5E38h], ebx
-4D5F2E : B9 00 10 00 00                 mov     ecx, 1000h
-4D60E0 : 8D 8E 34 5E 00 00              lea     ecx, [esi+5E34h]
-4D630E : 8D 8E 34 5E 00 00              lea     ecx, [esi+5E34h]
-4D6886 : 3D 00 10 00 00                 cmp     eax, 1000h
-4D92DB : C7 83 34 5E 00 00 1C 0B 59 00  mov     dword ptr [ebx+5E34h], offset off_590B1C
-4D92E5 : 89 B3 38 5E 00 00              mov     [ebx+5E38h], esi
-4D9A36 : B9 00 10 00 00                 mov     ecx, 1000h
-4DCB11 : 8D 8E 34 5E 00 00              lea     ecx, [esi+5E34h]
-4DCBD1 : 83 A6 3C 5E 00 00 F8           and     dword ptr [esi+5E3Ch], 0FFFFFFF8h
-4DD070 : 8B 86 3C 5E 00 00              mov     eax, [esi+5E3Ch] ; jumptable 004DCFDE case 80
-4DD081 : 89 8E 3C 5E 00 00              mov     [esi+5E3Ch], ecx
-4DD0C7 : 8B 86 3C 5E 00 00              mov     eax, [esi+5E3Ch] ; jumptable 004DCFDE case 72
-4DD0D8 : 89 8E 3C 5E 00 00              mov     [esi+5E3Ch], ecx
-4DD0E0 : 8B 86 3C 5E 00 00              mov     eax, [esi+5E3Ch] ; jumptable 004DCFDE case 71
-4DD0F1 : 89 96 3C 5E 00 00              mov     [esi+5E3Ch], edx
-4DD12B : F6 86 3C 5E 00 00 01           test    byte ptr [esi+5E3Ch], 1
-4DD588 : 8D 8E 34 5E 00 00              lea     ecx, [esi+5E34h]
-51A54C : 68 40 5E 00 00                 push    5E40h           ; Size
+4D5B01 : 3D 00 20 00 00                 cmp     eax, 2000h
+4D5E72 : C7 86 34 9E 00 00 1C 0B 59 00  mov     dword ptr [esi+9E34h], offset off_590B1
+4D5E7C : 89 9E 38 9E 00 00              mov     [esi+9E38h], ebx
+4D5F2E : B9 00 20 00 00                 mov     ecx, 2000h
+4D60E0 : 8D 8E 34 9E 00 00              lea     ecx, [esi+9E34h]
+4D630E : 8D 8E 34 9E 00 00              lea     ecx, [esi+9E34h]
+4D6886 : 3D 00 20 00 00                 cmp     eax, 2000h
+4D92DB : C7 83 34 9E 00 00 1C 0B 59 00  mov     dword ptr [ebx+9E34h], offset off_590B1C
+4D92E5 : 89 B3 38 9E 00 00              mov     [ebx+9E38h], esi
+4D9A36 : B9 00 20 00 00                 mov     ecx, 200
+4DCB11 : 8D 8E 34 9E 00 00              lea     ecx, [esi+9E34h]
+4DCBD1 : 83 A6 3C 9E 00 00 F8           and     dword ptr [esi+9E3Ch], 0FFFFFFF8h
+4DD070 : 8B 86 3C 9E 00 00              mov     eax, [esi+9E3Ch] ; jumptable 004DCFDE case 80
+4DD081 : 89 8E 3C 9E 00 00              mov     [esi+9E3Ch], ecx
+4DD0C7 : 8B 86 3C 9E 00 00              mov     eax, [esi+9E3Ch] ; jumptable 004DCFDE case 72
+4DD0D8 : 89 8E 3C 9E 00 00              mov     [esi+9E3Ch], ecx
+4DD0E0 : 8B 86 3C 9E 00 00              mov     eax, [esi+9E3Ch] ; jumptable 004DCFDE case 71
+4DD0F1 : 89 96 3C 9E 00 00              mov     [esi+9E3Ch], edx
+4DD12B : F6 86 3C 9E 00 00 01           test    byte ptr [esi+9E3Ch], 1
+4DD588 : 8D 8E 34 9E 00 00              lea     ecx, [esi+9E34h]
+51A54C : 68 40 9E 00 00                 push    9E40h           ; Size
 
